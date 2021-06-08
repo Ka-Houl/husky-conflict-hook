@@ -1,0 +1,39 @@
+{
+  "name": "husky-conflict-hook",
+  "version": "0.0.1",
+  "description": "husky hook used to check for git conflict",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ka-Houl/husky-conflict-hook.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": "index.js"
+  },
+  "keywords": [
+    "husky",
+    "hooks",
+    "pre-commit",
+    "lint-staged",
+    "conflict",
+    "git-conflict"
+  ],
+  "author": "Ka-Houl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ka-Houl/husky-conflict-hook/issues"
+  },
+  "homepage": "https://github.com/Ka-Houl/husky-conflict-hook#readme",
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0"
+  }
+}
