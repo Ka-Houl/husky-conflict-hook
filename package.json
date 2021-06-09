@@ -1,21 +1,27 @@
 {
   "name": "husky-conflict-hook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "husky hook used to check for git conflict",
-  "main": "index.js",
+  "main": "./bin/index.js",
+  "bin": {
+    "husky-conflict-hook": "bin/index.js"
+  },
   "scripts": {},
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
+  "lint-staged": {
+    "*": "node ./bin/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Ka-Houl/husky-conflict-hook.git"
   },
-  "lint-staged": {
-    "*": "node index.js"
-  },
+  "files": [
+    "bin"
+  ],
   "keywords": [
     "husky",
     "hooks",
