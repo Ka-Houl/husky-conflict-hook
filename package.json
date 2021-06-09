@@ -3,20 +3,18 @@
   "version": "0.0.1",
   "description": "husky hook used to check for git conflict",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Ka-Houl/husky-conflict-hook.git"
-  },
+  "scripts": {},
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ka-Houl/husky-conflict-hook.git"
+  },
   "lint-staged": {
-    "*": "index.js"
+    "*": "node index.js"
   },
   "keywords": [
     "husky",
@@ -24,6 +22,8 @@
     "pre-commit",
     "lint-staged",
     "conflict",
+    "git",
+    "git-commit",
     "git-conflict"
   ],
   "author": "Ka-Houl",
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/Ka-Houl/husky-conflict-hook#readme",
   "devDependencies": {
-    "husky": "^6.0.0",
+    "husky": "^4.2.5",
     "lint-staged": "^11.0.0"
   }
 }
