@@ -24,7 +24,7 @@ $ npm i husky lint-staged -D
 #  "*" means that every file in the git staged will be checked
 ````
 
-```
+
 
 ## Links
 
