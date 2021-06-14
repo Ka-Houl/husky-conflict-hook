@@ -1,6 +1,6 @@
 {
   "name": "husky-conflict-hook",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "husky hook used to check for git conflict",
   "main": "./bin/index.js",
   "bin": {
