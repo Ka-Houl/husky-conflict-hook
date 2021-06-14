@@ -1,17 +1,16 @@
-English | [简体中文](./README.zh-CN.md)
+[English](./README.md) | 简体中文
 
 # husky-conflict-hook used to check for git conflict
 
 ---
 
-Using npm:
+使用 npm:
 
 ```bash
 # Install dependency
 $ npm i husky-conflict-hook -D
 
-# It is based on husky and lint-staged. Usually, we have already install husky and lint-staged, so I didn't put them in the dependencies. So you can also install them individually. Due to different versions of husky, the configuration of husky may be slightly different. For details, it depends on the documents of different versions of husky
-
+# 它基于husky和lint-staged。我们通常已经在项目里使用了husky和lint-staged了，所以我没有把它们放进去dependencies中。你也可以单独安装它们，因为husky版本不同，可能会在配置husky的配置有些许不一样，具体要看husky各版本的文档
 $ npm i husky lint-staged -D
 ```
 

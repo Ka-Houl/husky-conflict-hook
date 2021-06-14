@@ -1,4 +1,0 @@
-sadsad
-<<<<<<< HEAD
-asdsadas
->>>>>>> aaaaa
